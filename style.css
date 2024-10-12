@@ -1,0 +1,135 @@
+*{margin:0px;
+  padding:0px;}
+body{
+  background-image:radial-gradient(#d3ff6e 50%, rgba(0,0,0,0.1));
+    /*linear-gradient(to right, rgba(0,0,0,0.1),#d3ff6e,rgba(0,0,0,0.1));
+  text-align:justify;*/
+}
+#header{
+width:auto;  
+padding:15px 5% 10px;
+  background-image:repeating-linear-gradient(90deg, blue, darkorange, black);
+color:#00ffff;
+text-transform:uppercase;
+border-bottom: 1px solid white;
+font-size:30px;
+font-weight:900;}
+
+
+#navbar{ position:relative;
+  background-color:#011729;
+  height:50px;
+  margin:0;
+  border-radius:2px;
+ /* border-bottom: solid 2px red;*/
+padding:15px;
+}
+
+#navbar ul{list-style:none;
+padding-top:
+  15px;
+/*padding-left:
+  ;*/}
+#navbar li{display:inline;
+  width: auto;
+  padding-left:60px;}
+#navbar a{text-decoration:none;
+ color:#c3e1f7;
+font-size:17px;
+font-weight:500;}
+main{
+  width:99%;}
+   
+
+p{font-family:"Baloo Tammudu 2", cursive;}
+.subtitle{font-family:"PT Sans Narrow", sans-serif;
+  text-align:center;}
+#Naruto{margin:30px 30px;
+position:relative;}
+#Ninja{
+float:left;
+padding-right:45px;
+}
+#Naruto audio, #Haikyuu audio{display:block;
+margin-top:10px;}
+figcaption{margin-top:10px;
+font-family:"Slabo 27px", serif;
+word-spacing:1px;
+letter-spacing:0.3px;}
+
+#Ninja2{padding:6%;}
+#Naruto img{box-shadow: 5px 6px 2px 1px;
+width:250px;}
+.top{text-align:justify;}
+
+.text{display:block;
+margin-bottom:10px;
+letter-spacing:0.5px;
+font-style:italic}
+h1{font-family:'Comic Neue', cursive;}
+
+#Haikyuu{margin:30px 30px;}
+#player{float:right;
+padding-left:45px;}
+#player2{padding:6%;
+  box-sizing:border-box;}
+#player h2,small{text-align:right;}
+#player img{box-shadow: -5px 6px 2px 1px;
+width:250px;}
+#motivation{
+  filter:grayscale(50%);
+  font-size:18px;
+margin:50px
+  auto;
+  padding:30px
+  160px
+  160px 
+    160px;
+width:30%;
+  border-radius:10%;
+background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRRqAq1BaykkSgmp2Gzpi6jIWexGfiMQCLV4zlFFGzh9zvuFE7i&usqp=CAU");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  color:white;
+  box-shadow:
+  0px 
+   5px
+  11px 
+    5px
+rgba(0, 45, 117)
+    ;
+}
+#motivation    
+p, ul
+{text-align:center;
+  text-transform:uppercase;}
+#motivation ul {
+  list-style:none;
+  line-height:1.5;}
+#motivation a{text-decoration:none;
+  color:white;}
+p a{text-decoration:underline;
+  color:black;}
+a:hover,a:focus,a:active
+{text-decoration:none;
+color:orange;
+filter:drop-shadow(3px 3px 3px black);}
+
+#motivation ul li:hover,#motivation ul li:focus,#motivation ul li:active, #navbar ul li:hover,#navbar ul li:focus,#navbar ul li:active{filter:blur(2px);}
+#Ninja img:hover{box-shadow:5px 6px 3px 2px;
+filter:brightness(105%);}
+
+#player img:hover,#player img:active,#player img:focus{box-shadow:-5px 6px 3px 2px;
+filter:brightness(105%);}
+#motivation:hover{filter:grayscale(0%);}
+
+#Ninja h2:hover, #Ninja h2:focus, #Ninja h2:active,#Ninja small:hover,#Ninja small:focus,#Ninja small:active{background:-webkit-linear-gradient( blue, darkorange);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;}
+
+#player h2:hover,#player h2:focus,#player h2:active,#player small:hover,#player small:focus,#player small:active{background:-webkit-linear-gradient( orange,black);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;}
+
+
